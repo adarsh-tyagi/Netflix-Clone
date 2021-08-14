@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 4rem;
+  justify-content: center;
+  border-top: 1px solid gray;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+a:hover {
+  color: white;
+}
+
+.footer__mainlink {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.footer__divs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0.8rem 0.5rem;
+}
+
+.footer__links > a {
+  margin: 0.5rem 0;
+}

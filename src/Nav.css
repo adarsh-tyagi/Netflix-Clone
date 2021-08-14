@@ -1,0 +1,94 @@
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav__logo {
+  position: fixed;
+  padding-top: 5px;
+  left: 0;
+  width: 80px;
+  object-fit: contain;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.nav__logo:hover {
+  width: 90px;
+  transition: ease-in 0.25s;
+}
+
+.nav__avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  cursor: pointer;
+}
+.nav__avatar:hover {
+  width: 35px;
+  transition: ease-in 0.25s;
+}
+
+.nav__links {
+  display: flex;
+  position: fixed;
+  left: 15%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav__links > p {
+  color: white;
+  font-weight: 500;
+  padding: 0 0.6rem;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.nav__links > p:hover {
+  color: #e50914;
+}
+
+.nav__linksIcon {
+  position: fixed;
+  left: 23%;
+}
+
+.nav__linksIcon > select {
+  border: none;
+  background-color: rgba(51, 51, 51, 0.5);
+  outline: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0.3rem 0.6rem;
+}
+.nav__linksIcon > select > option {
+  background-color: gray;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .nav__links {
+    left: 20%;
+  }
+}
+@media (max-width: 600px) {
+  .nav__linksIcon {
+    left: 28%;
+  }
+}
