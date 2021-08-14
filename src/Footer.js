@@ -7,27 +7,27 @@ function Footer() {
       <a className="footer__mainlink" href="#">Questions? Contact us</a>
       <div className="footer__divs">
         <div className="footer__links">
-          <a href="#">FAQ</a>
-          <a href="#">Investor Relation</a>
-          <a href="#">Privacy</a>
-          <a href="#">Speed Test</a>
+          <a>FAQ</a>
+          <a>Investor Relation</a>
+          <a>Privacy</a>
+          <a>Speed Test</a>
         </div>
         <div className="footer__links">
-          <a href="#">Help Center</a>
-          <a href="#">Jobs</a>
-          <a href="#">Cookie Preference</a>
-          <a href="#">Legal Notices</a>
+          <a>Help Center</a>
+          <a>Jobs</a>
+          <a>Cookie Preference</a>
+          <a>Legal Notices</a>
         </div>
         <div className="footer__links">
-          <a href="#">Account</a>
-          <a href="#">Ways to watch</a>
-          <a href="#">Corporate Information</a>
-          <a href="#">Netflix Originals</a>
+          <a>Account</a>
+          <a>Ways to watch</a>
+          <a>Corporate Information</a>
+          <a>Netflix Originals</a>
         </div>
         <div className="footer__links">
-          <a href="#">Media Center</a>
-          <a href="#">Terms of Use</a>
-          <a href="#">Contact Us</a>
+          <a>Media Center</a>
+          <a>Terms of Use</a>
+          <a>Contact Us</a>
         </div>
       </div>
     </div>

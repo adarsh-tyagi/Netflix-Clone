@@ -37,7 +37,7 @@ function App() {
     <div className="app">
       <Router>
         {!user ? (
-          <LoginScreen />
+          <LoginScreen /> 
         ) : (
           <Switch>
             <Route path="/profile">
